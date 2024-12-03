@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo Yasmin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+            background-size: 200% 200%;
+            animation: gradientBackground 8s ease infinite;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @keyframes gradientBackground {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .logo {
+            max-width: 180px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 2.8em;
+            color: #fff;
+            text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.7);
+        }
+
+        p {
+            font-size: 1.4em;
+            color: #f1f1f1;
+            margin-bottom: 30px;
+            text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .button-container {
+            margin-top: 20px;
+        }
+
+        a {
+            display: inline-block;
+            padding: 15px 40px;
+            font-size: 1.3em;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fff;
+            background-color: #28a745;
+            border-radius: 30px;
+            transition: transform 0.3s, background-color 0.4s, box-shadow 0.3s;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        a:hover {
+            background-color: #218838;
+            transform: scale(1.1);
+            box-shadow: 0 8px 20px rgba(198, 223, 5, 0.9);
+        }
+
+        
+
+        .depoimentos h2 {
+            font-size: 2.2em;
+            margin-bottom: 20px;
+        }
+
+        .depoimento {
+            font-size: 1.1em;
+            font-style: italic;
+            color: #555;
+            margin: 20px 0;
+        }
+
+        .depoimento p {
+            margin-top: 10px;
+        }
+
+        .imagens-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 40px 0;
+        }
+
+        .imagens-container img {
+            max-width: 700px;
+            max-height: 450px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s;
+        }
+
+        .imagens-container img:hover {
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.2em;
+            }
+            p {
+                font-size: 1.2em;
+            }
+            a {
+                font-size: 1.1em;
+                padding: 10px 30px;
+            }
+            .depoimentos h2 {
+                font-size: 1.8em;
+            }
+            .depoimento {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="APOSTA.png" alt="Logo Grupo Yasmin" class="logo">
+    <h1>Bem-vindo ao Grupo da ELIANE</h1>
+    <div class="button-container">
+        <a href="https://wa.me/42988843589?text=Olá!%20Gostaria%20de%20mais%20informações!" target="_blank">
+            ACESSO AO GRUPO VIP GRATUITO
+        </a>
+    </div>
+
+    <!-- Depoimentos -->
+    <div class="depoimentos">
+        <h2>Plataformas novas que prometem muito para esse ano de 2024, Hackers, Horários e Estratégias dentro do nosso Grupo só copiar e colar.  </h2>
+        <div class="depoimento">
+            
+        </div>
+        <div class="depoimento">
+          
+        </div>
+    </div>
+
+    <!-- Imagens -->
+    <div class="imagens-container">
+        <img src="IMAGE1.jpeg" alt="Imagem 1">
+        <img src="IMAGE2.jpeg" alt="Imagem 2">
+        <img src="IMAGE3.jpeg" alt="Imagem 3">
+        <img src="IMAGE4.jpeg" alt="Imagem 4">
+    </div>
+</body>
+</html>
